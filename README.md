@@ -4,7 +4,7 @@
 No exceptions
 ```
 if (a === b) {
-  // ...
+    // ...
 }
 ```
 
@@ -40,3 +40,20 @@ if (x === undefined) {
 
 // output: x is not undefined
 ```
+
+### use `let` and `const`
+Assign each variable as `const` if possible. If not use `let`.
+
+### use desctructing assignment
+```
+const a = {
+    x: 1,
+    y: 2,
+    z: 3
+};
+const { x, y, z } = a;
+console.log(x, y, z); // 1 2 3
+```
+
+### `async` and `await`
+Prefer using `async` and `await` over `promise.then(...)`.
