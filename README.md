@@ -41,6 +41,14 @@ if (x === undefined) {
 // output: x is not undefined
 ```
 
+### function check
+Do not check if function is defined, but rather
+```
+if (typeof fn === 'function') {
+    // ...
+}
+```
+
 ### use `let` and `const`
 Assign each variable as `const` if possible. If not use `let`.
 
