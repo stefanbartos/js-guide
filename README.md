@@ -27,7 +27,7 @@ if (typeof x === 'undefined') {
 }
 ```
 
-Why?
+*Why?*
 `undefined` is not a reserved word and it can be used as an identifier.
 ```
 undefined = 123;
