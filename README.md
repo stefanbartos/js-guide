@@ -49,6 +49,13 @@ if (typeof fn === 'function') {
 }
 ```
 
+### array check
+```
+if (Array.isArray(arr)) {
+    // ...
+}
+```
+
 ### use `let` and `const`
 Assign each variable as `const` if possible. If not use `let`.
 
